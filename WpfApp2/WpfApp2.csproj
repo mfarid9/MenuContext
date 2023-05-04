@@ -8,15 +8,40 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="copy.png" />
+    <None Remove="add_tab.svg" />
+    <None Remove="colorpalette.svg" />
+    <None Remove="copy.svg" />
+    <None Remove="cut.svg" />
+    <None Remove="documents.svg" />
+    <None Remove="openedfolder.svg" />
+    <None Remove="paste.svg" />
+    <None Remove="pincircle.svg" />
+    <None Remove="remove.svg" />
+    <None Remove="rename.svg" />
+    <None Remove="settings.svg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="add_tab.svg" />
+    <Resource Include="colorpalette.svg" />
+    <Resource Include="documents.svg" />
+    <Resource Include="openedfolder.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Wpf.Controls" Version="22.2.3" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="22.2.3" />
     <PackageReference Include="MaterialDesignThemes" Version="4.8.1-ci246" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="copy.png" />
+    <Resource Include="copy.svg" />
+    <Resource Include="cut.svg" />
+    <Resource Include="paste.svg" />
+    <Resource Include="pincircle.svg" />
+    <Resource Include="remove.svg" />
+    <Resource Include="rename.svg" />
+    <Resource Include="settings.svg" />
   </ItemGroup>
 
 </Project>
